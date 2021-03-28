@@ -9,7 +9,7 @@ public class Main {
         for( int i =0; i < 6; i++){
             System.out.println("Enter results: " +(i+1) +":");
             marks[i] = scan.nextInt();
-            total= total + marks[i];
+            total+=marks[i];
         }
         scan.close();
 
